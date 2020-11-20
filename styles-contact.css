@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/lexanna_schultz_background.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -70,53 +70,63 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    margin: 100px auto; 
+    border-radius: 100px 100px;
+    text-align: center;
+    background: rgba(256, 256, 256, .25); /*this uses opacity of 25% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+    font-family: didot;
+    font-size: 3em;
+    width: 500px
+    margin: 50px auto 20px auto;
+    color: #01516d;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 1.5em;
+    font-family: didot;
+    font-size: 1.6em;
+    width: 500px;
     line-height: 1.4;
-    color: #fff;
+    color: #01516d;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 20px auto 40px auto;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
+    font-family: didot;
+    font-size: 1.2em;
+    width: 500px;
+    margin: 40px auto 20px auto;
+    color: #01516d;
 }
     
     
 
 nav{
-    font-family: garamond;
+    font-family: didot;
     font-size: 1.2 em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+    border: white;
+    border-width: 2px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 10 auto;
+    border-top: 1px solid #01516d;
+    border-bottom: 1px solid #01516d;
+    
+
     }
 
 nav li{
@@ -129,11 +139,11 @@ nav a{
     }
 
 a{
-    color:#444;
+    color: #01516d;
     text-decoration: none;
     font-weight: bold;
     }
 a:hover{
-    color:black;
-    background:pink
+    color: #01516d;
+    background: #93cbc9
     }
