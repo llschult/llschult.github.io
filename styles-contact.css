@@ -70,7 +70,7 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
-    margin: 100px auto; 
+    margin: 100px auto 100px auto; 
     border-radius: 100px 100px;
     text-align: center;
     background: rgba(256, 256, 256, 1); /*this uses opacity of 100% for the background color*/
@@ -106,7 +106,7 @@ h2 {
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
     font-family: didot;
-    font-size: 1em;
+    font-size: 1.1em;
     width: 500px;
     line-height: 1.6;
     margin: 20px auto 20px auto;
