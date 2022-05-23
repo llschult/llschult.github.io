@@ -33,6 +33,10 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+nav ul li a:hover {
+    border-bottom: solid 2px rgb(18, 18, 18);
+}
+
 body {
     background-color: rgb(251, 249, 246);
 	color: rgb(18, 18, 18);  
@@ -70,6 +74,10 @@ p.price {
 
 p.description {
  font-style: italic;
+}
+
+a {
+    color: rgb(18 18 18);
 }
 
 @media only screen and (min-width: 60em) {
